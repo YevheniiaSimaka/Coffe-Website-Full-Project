@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <section id="header">
+
+    <a href="#">
+      <img src="img/logo.png" alt="Logo">
+    </a>
+
+    <nav class="navbar">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#menu">Menu</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="index.html#blog">Blog</a>
+      <a href="index.html#review">Review</a>
+    </nav>
+
+    <div class="icons">
+      <!--   Search   -->
+
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6 search">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+      </svg>
+
+      <!--   Cart   -->
+
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6 cart">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+      </svg>
+
+      <!--   Menu   -->
+
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6 menu">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+
+
+    </div>
+
+    <div class="searchForm">
+      <input type="text" class="searchBox" placeholder="Search here...">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6 close">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+
+      <label for="searchBox">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 search">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+      </label>
+    </div>
+
+    <div class="cartItems">
+
+      <div class="cartItem one">
+        <img src="img/cart-item-1.png" alt="">
+        <div class="content">
+          <h3>White Coffee</h3>
+          <div class="price">$15.99</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 delete one">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </div>
+
+      <div class="cartItem two">
+        <img src="img/cart-item-2.png" alt="">
+        <div class="content">
+          <h3>Brown Coffee</h3>
+          <div class="price">$15.99</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 delete two">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </div>
+
+      <div class="cartItem three">
+        <img src="img/cart-item-3.png" alt="">
+        <div class="content">
+          <h3>Mix of Two</h3>
+          <div class="price">$15.99</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 delete three">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </div>
+
+      <div class="cartItem four">
+        <img src="img/cart-item-4.png" alt="">
+        <div class="content">
+          <h3>Yellow Coffee</h3>
+          <div class="price">$15.99</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 delete four">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </div>
+
+      <div class="cartItem five">
+        <img src="img/menu-1.png" alt="">
+        <div class="content">
+          <h3>Latte</h3>
+          <div class="price">$15.99</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 delete five">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </div>
+
+      <div class="cartItem six">
+        <img src="img/menu-2.png" alt="">
+        <div class="content">
+          <h3>Latte</h3>
+          <div class="price">$15.99</div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 delete six">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </div>
+
+      <div class="cartItem seven">
+        <img src="img/menu-3.png" alt="">
+        <div class="content">
+          <h3>Latte</h3>
+          <div class="price">$15.99</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 delete seven">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </div>
+
+      <div class="cartItem eight">
+        <img src="img/menu-4.png" alt="">
+        <div class="content">
+          <h3>Latte</h3>
+          <div class="price">$15.99</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 delete eight">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </div>
+
+      <div class="cartItem nine">
+        <img src="img/menu-5.png" alt="">
+        <div class="content">
+          <h3>Latte</h3>
+          <div class="price">$15.99</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 delete nine">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </div>
+
+      <div class="cartItem ten">
+        <img src="img/menu-6.png" alt="">
+        <div class="content">
+          <h3>Latte</h3>
+          <div class="price">$15.99</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 delete ten">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </div>
+
+      <h3 class="nothingHere">Nothing Here</h3>
+
+      <a href="#" class="btn buyNow">BUY NOW</a>
+
+    </div>
+
+  </section>
+
+  <section class="home blog">
+
+    <div class=" content">
+      <h1>Fresh Coffee in the Morning</h3>
+        <a href="#" class="btn getCoffee">GET YOURS NOW</a>
+    </div>
+
+  </section>
+
+
+  <section id="info">
+
+    <div class="content">
+
+      <h1 class="heading">More About <span>Coffee</span></h1>
+
+      <p>&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ut libero veritatis similique
+        nulla
+        blanditiis earum unde nam maxime officiis, est, sed quia perspiciatis numquam voluptates quis quas? At, alias?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque rerum cupiditate quod dignissimos eligendi
+        magnam
+        nemo praesentium excepturi dolores eum architecto, quia, fugiat eius consectetur aliquam quidem nulla magni
+        beatae
+        quam est repellendus modi eveniet? Inventore, dolorum impedit aut accusantium voluptates est. Nostrum dicta,
+        error
+        similique vitae sit perferendis tempore rerum eveniet tempora culpa? Sapiente blanditiis adipisci debitis,
+        minima
+        nihil neque facilis ab nisi recusandae soluta? Asperiores rerum tenetur harum.</p>
+
+      <p>&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque rerum cupiditate quod dignissimos
+        eligendi
+        magnam
+        nemo praesentium excepturi dolores eum architecto, quia, fugiat eius consectetur aliquam quidem nulla magni
+        beatae
+        quam est repellendus modi eveniet? Inventore, dolorum impedit aut accusantium voluptates est. Nostrum dicta,
+        error
+        similique vitae sit perferendis tempore rerum eveniet tempora culpa? Sapiente blanditiis adipisci debitis,
+        minima
+        nihil neque facilis ab nisi recusandae soluta? Asperiores rerum tenetur harum.</p>
+
+    </div>
+
+  </section>
+
+  <section id="image">
+    <div class="content">
+      <h2>Fun Fact</h2>
+      <p>&emsp;&emsp;According to Harvard Health Publishing, research has linked moderate intake to a
+        longer
+        life span, as well as a lower risk of cardiovascular disease, type 2 diabetes, and Parkinson's disease.</p>
+    </div>
+  </section>
+
+
+  <section id="info">
+
+    <div class="content">
+
+      <p>&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ut libero veritatis similique
+        nulla
+        blanditiis earum unde nam maxime officiis, est, sed quia perspiciatis numquam voluptates quis quas? At, alias?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque rerum cupiditate quod dignissimos eligendi
+        magnam
+        nemo praesentium excepturi dolores eum architecto, quia, fugiat eius consectetur aliquam quidem nulla magni
+        beatae
+        quam est repellendus modi eveniet? Inventore, dolorum impedit aut accusantium voluptates est. Nostrum dicta,
+        error
+        similique vitae sit perferendis tempore rerum eveniet tempora culpa? Sapiente blanditiis adipisci debitis,
+        minima
+        nihil neque facilis ab nisi recusandae soluta? Asperiores rerum tenetur harum.</p>
+
+      <p>&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque rerum cupiditate quod dignissimos
+        eligendi
+        magnam
+        nemo praesentium excepturi dolores eum architecto, quia, fugiat eius consectetur aliquam quidem nulla magni
+        beatae
+        quam est repellendus modi eveniet? Inventore, dolorum impedit aut accusantium voluptates est. Nostrum dicta,
+        error
+        similique vitae sit perferendis tempore rerum eveniet tempora culpa? Sapiente blanditiis adipisci debitis,
+        minima
+        nihil neque facilis ab nisi recusandae soluta? Asperiores rerum tenetur harum.</p>
+
+    </div>
+
+  </section>
+
+  <section id="collage">
+
+    <div class="container">
+
+      <div class="box">
+        <h3>May your coffee be strong and your Monday be short.</h3>
+      </div>
+
+      <div class="box"></div>
+
+      <div class="box"></div>
+
+      <div class="box">
+        <h3> Caffeine- It maintains my sunny personality</h3>
+      </div>
+
+      <div class="box"></div>
+
+      <div class="box">
+        <h3>Three cups of coffee a day keeps the doctor away!</h3>
+      </div>
+
+      <div class="box"></div>
+
+      <div class="box"></div>
+
+      <div class="box">
+        <h3>Stressed, blessed, and coffee obsessed.</h3>
+      </div>
+
+      <div class="box"></div>
+
+      <div class="box"></div>
+
+      <div class="box"></div>
+
+      <div class="box"></div>
+
+      <div class="box">
+        <h3>The most dangerous drinking game is seeing how long I can go without coffee.</h3>
+      </div>
+
+      <div class="box"></div>
+
+      <div class="box"></div>
+
+      <div class="box">
+        <h3>Coffee owns me, and I am fine with that</h3>
+      </div>
+
+      <div class="box"></div>
+
+    </div>
+
+  </section>
+
+  <section id="info">
+
+    <div class="content">
+
+      <p>&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ut libero veritatis similique
+        nulla
+        blanditiis earum unde nam maxime officiis, est, sed quia perspiciatis numquam voluptates quis quas? At, alias?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque rerum cupiditate quod dignissimos eligendi
+        magnam
+        nemo praesentium excepturi dolores eum architecto, quia, fugiat eius consectetur aliquam quidem nulla magni
+        beatae
+        quam est repellendus modi eveniet? Inventore, dolorum impedit aut accusantium voluptates est. Nostrum dicta,
+        error
+        similique vitae sit perferendis tempore rerum eveniet tempora culpa? Sapiente blanditiis adipisci debitis,
+        minima
+        nihil neque facilis ab nisi recusandae soluta? Asperiores rerum tenetur harum.</p>
+
+      <p>&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque rerum cupiditate quod dignissimos
+        eligendi
+        magnam
+        nemo praesentium excepturi dolores eum architecto, quia, fugiat eius consectetur aliquam quidem nulla magni
+        beatae
+        quam est repellendus modi eveniet? Inventore, dolorum impedit aut accusantium voluptates est. Nostrum dicta,
+        error
+        similique vitae sit perferendis tempore rerum eveniet tempora culpa? Sapiente blanditiis adipisci debitis,
+        minima
+        nihil neque facilis ab nisi recusandae soluta? Asperiores rerum tenetur harum.</p>
+
+      <p>&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque rerum cupiditate quod dignissimos
+        eligendi
+        magnam
+        nemo praesentium excepturi dolores eum architecto, quia, fugiat eius consectetur aliquam quidem nulla magni
+        beatae
+        quam est repellendus modi eveniet? Inventore, dolorum impedit aut accusantium voluptates est. Nostrum dicta,
+        error
+        similique vitae sit perferendis tempore rerum eveniet tempora culpa? Sapiente blanditiis adipisci debitis,
+        minima
+        nihil neque facilis ab nisi recusandae soluta? Asperiores rerum tenetur harum.</p>
+
+    </div>
+
+  </section>
+
+
+  <section id="blog">
+
+    <h1 class="heading">Other <span>Blogs</span></h1>
+
+    <div class="boxes">
+
+      <div class="box">
+        <a href="">
+          <div class="wrap">
+            <img src="img/coffee1.png" alt="">
+          </div>
+          <div class="content">
+            <h2>How often can you drink coffee?</h2>
+            <h3>21st, May 2021</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eaque expedita dolores dolor quas
+              repellendus.
+            </p>
+            <a href="blog" class="btn">View More</a>
+          </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <a href="blogPage.html">
+          <div class="wrap">
+            <img src="img/blog-2.jpeg" alt="">
+          </div>
+          <div class="content">
+            <h2>Tasty and Refreshing Coffee</h2>
+            <h3>21st, May 2021</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eaque expedita dolores dolor quas
+              repellendus.
+            </p>
+            <a href="blog" class="btn">View More</a>
+          </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <a href="">
+          <div class="wrap">
+            <img src="img/coffee3.png" alt="">
+          </div>
+          <div class="content">
+            <h2>Is coffee healthy?</h2>
+            <h3>21st, May 2021</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eaque expedita dolores dolor quas
+              repellendus.
+            </p>
+            <a href="blog" class="btn">View More</a>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="boxes">
+
+      <div class="box">
+        <a href="blogPage.html">
+          <div class="wrap">
+            <img src="img/blog-1.jpeg" alt="">
+          </div>
+          <div class="content">
+            <h2>Tasty and Refreshing Coffee</h2>
+            <h3>21st, May 2021</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eaque expedita dolores dolor quas
+              repellendus.
+            </p>
+            <a href="blog" class="btn">View More</a>
+          </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <a href="">
+          <div class="wrap">
+            <img src="img/coffee2.png" alt="">
+          </div>
+          <div class="content">
+            <h2>What coffee is good quality?</h2>
+            <h3>21st, May 2021</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eaque expedita dolores dolor quas
+              repellendus.
+            </p>
+            <a href="blog" class="btn">View More</a>
+          </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <a href="blogPage.html">
+          <div class="wrap">
+            <img src="img/blog-3.jpeg" alt="">
+          </div>
+          <div class="content">
+            <h2>Tasty and Refreshing Coffee</h2>
+            <h3>21st, May 2021</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eaque expedita dolores dolor quas
+              repellendus.
+            </p>
+            <a href="blog" class="btn">View More</a>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <br><br>
+
+  </section>
+
+
+  <section id="footer">
+
+    <div class="grid">
+
+      <div class="column">
+        <img src="img/logo.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, cupiditate!</p>
+      </div>
+
+      <div class="column">
+        <h3>Imaportant Links</h3>
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#blog">Blog</a>
+        </div>
+      </div>
+
+      <div class="column">
+        <h3>Imaportant Links</h3>
+        <div class="links">
+          <a href="">random@gmail.com</a>
+          <a href="">+1234567890</a>
+          <a href="">Adress</a>
+        </div>
+      </div>
+
+      <div class="column">
+        <h3>Social Links</h3>
+        <div class="links">
+          <a href="">Facebook</a>
+          <a href="">Instagram</a>
+          <a href="">Telehram</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
